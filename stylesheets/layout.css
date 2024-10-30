@@ -1,0 +1,468 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Old Standart TT';
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 22px;
+    height: 100vh;
+}
+
+.section-1 div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url('../images/image-1.png');
+    background-size: cover;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-2 {
+    margin-top: 150px;
+    padding: 22px;
+}
+
+.section-2>div {
+    border: 2px solid rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section-2 .body-1 {
+    padding: 30px;
+}
+
+.section-3 {
+    padding: 22px;
+    margin-top: 150px;
+}
+
+.section-3 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.section-3 .body-3 {
+    background: linear-gradient(90deg, #fff, rgba(255, 255, 255, .1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -.08em;
+}
+
+.section-3 .line {
+    position: absolute;
+    top: calc(50% - 1px);
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.section-4 {
+    padding: 22px;
+    margin-top: 220px;
+}
+
+.section-4 div {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    background-image: url('../images/Image\ 2.png');
+    background-size: cover;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-4-body-1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5em;
+    width: 26em;
+}
+
+.section-5 {
+    overflow: hidden;
+    margin-top: 170px;
+}
+
+.section-5>div {
+    position: relative;
+    display: flex;
+    gap: 62px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sec-5-cont-1 {
+    position: absolute;
+    left: 0;
+    bottom: -70px;
+}
+
+.sec-5-cont-2 {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+}
+
+
+.section-6>div {
+    margin-top: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section-6 div p {
+    position: absolute;
+}
+
+.section-6 .heading-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -.1em;
+}
+
+.section-6 .sec-6-1 {
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 350px);
+    letter-spacing: -.04em;
+}
+
+.section-6 .sec-6-2 {
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% + 510px);
+    letter-spacing: -.04em;
+}
+
+.section-6 .sec-6-6 {
+    position: absolute;
+    top: calc(50% + 60px);
+    left: calc(50% - 500px);
+    letter-spacing: -.04em;
+}
+
+.section-6 .sec-6-3 {
+    position: absolute;
+    top: calc(50% + 160px);
+    left: calc(50% - 500px);
+    letter-spacing: -.04em;
+}
+
+.section-6 .sec-6-4 {
+    position: absolute;
+    top: calc(50% + 120px);
+    left: calc(50% - 240px);
+    letter-spacing: -.04em;
+}
+
+.section-6 .sec-6-7 {
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% + 490px);
+    letter-spacing: -.04em;
+}
+
+.section-6 .sec-6-5 {
+    position: absolute;
+    top: calc(50% + 160px);
+    left: calc(50% + 240px);
+    letter-spacing: -.04em;
+}
+
+.section-6 .sec-6-8 {
+    position: absolute;
+    top: calc(50% + 60px);
+    left: calc(50% + 270px);
+    letter-spacing: -.04em;
+}
+
+.section-7 {
+    position: relative;
+}
+
+.section-7 img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.section-7 .body-1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+}
+
+.section-8 {
+    margin-top: 220px;
+    position: relative;
+
+}
+
+.section-8 .extra-2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.section-8 .sec-8-1 {
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 220px);
+    letter-spacing: -.04em;
+}
+
+.section-8 .sec-8-2 {
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% + 300px);
+    letter-spacing: -.04em;
+}
+
+.section-8 .sec-8-3 {
+    position: absolute;
+    top: calc(50% + 200px);
+    left: calc(50% - 150px);
+    letter-spacing: -.04em;
+}
+
+.section-9 {
+    position: relative;
+}
+
+.section-9 img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.section-9 .sec-9-1 {
+    position: absolute;
+    top: calc(50% - 600px);
+    left: 50%;
+    letter-spacing: -.04em;
+}
+
+.section-9 .sec-9-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    letter-spacing: -.04em;
+}
+
+.section-10 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.section-10>div {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-10 div div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.section-10 div div p {
+    color: #666666;
+    text-align: center;
+    font-family: "Old Standard TT";
+    font-size: 63.708px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-11 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.section-11>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-11>div>div {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.section-11 div div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 199px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: url('../images/sec-11.png');
+    background-size: contain;
+    width: 283px;
+    height: 387px;
+}
+.body-1 {
+    font-size: 78px;
+    letter-spacing: -4px
+}
+
+.body-2 {
+    font-size: 56px;
+    font-style: italic;
+}
+
+.body-3 {
+    font-size: 96px;
+    font-style: normal
+}
+
+.body-4 {
+    font-size: 28px;
+    font-style: normal
+}
+
+.body-5 {
+    font-size: 95px;
+    font-style: italic
+}
+
+.body-6 {
+    font-size: 95px;
+    font-style: normal;
+    margin-bottom: 10px;
+    letter-spacing: -.06em;
+}
+
+.body-7 {
+    font-size: 32px;
+    letter-spacing: -.04em;
+    font-style: normal;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+
+
+.heading-1 {
+    margin-top: -60px;
+    font-size: 384px;
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: -.08em
+}
+
+.heading-2 {
+    font-size: 283px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 30px;
+    letter-spacing: -.08em
+}
+
+.heading-3 {
+    font-size: 283px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -60px;
+    letter-spacing: -.08em;
+    padding-right: 20px;
+}
+
+.heading-4 {
+    font-size: 369px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1em;
+    color: #FF002A;
+    letter-spacing: -.12em;
+}
+
+.sec-5-h-2 {
+    text-align: end;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.sec-5-p-2 {
+    text-align: end;
+}
+
+.sec-5-h-1 {
+    margin-top: -20px;
+    margin-left: -140px;
+}
+
+.heading-5 {
+    display: flex;
+    justify-content: center;
+    font-size: 416px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    font-size: 1300px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.extra-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 656px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -.08em
+}
+
+.extra-3 {
+    display: flex;
+    justify-content: center;
+    font-size: 656px;
+    font-style: normal;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: -.08em
+}
